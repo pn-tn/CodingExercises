@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+    <head>
+        <title>ProcessManagementSimulation</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>Process Management Simulation</h1>
+
+        <div class="graph">
+                            
+                <label for="len">process length: </label>
+                <input type="number" id="len" name="len" min="1" max="30"><br>
+
+                <label for="AT">arrival time: </label>
+                <input type="number" id="AT" name="AT" min="0" max="50"><br>
+
+                <button type="button" id="add-process">Add Process</button>
+            </form>
+        
+            <!-- Container for the added Processes -->
+            <div>
+                <h3>Processes:</h3>
+            </div>
+
+            <!-- Container for the simulation -->
+            <div>
+                <h3>Simulation:</h3>
+                <button type="button" id="start">Start</button>
+                <button type="button" id="incr">Increment</button>
+
+				<form>               
+                	<label for="algo">Process Management Algorithm: </label>
+
+                	<!-- selecting which process -->
+                	<select id="algo" name="algo">
+                    	<option value="RouRob">Round Robin</option>
+                    	<option value="FCFS">First-Come First-Served</option>
+                	</select><br>
+
+                	<label for="quantum">Quantum: </label>
+                	<input type="number" id="quantum" name="quantum" min="1" max="10"><br>
+            	</form>
+			<br>
+ 
+            <form>
+
+            </div>
+
+        </div>
+
+		<script src="simulating.js"></script>
+    </body>
+
+</html>
