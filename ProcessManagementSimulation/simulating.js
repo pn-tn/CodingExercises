@@ -16,6 +16,27 @@ function AddProcess() {
     };
     process.push(new_process);
 	console.log(process);
+
+	var process_div = document.createElement("div");
+	process_div.classList.add("process-div");
+
+	var pLength = document.createElement("p");
+	pLength.textContent = "Length: " + new_process.length;
+
+	var pArrival = document.createElement("p");
+	pArrival.textContent = "Arrival: " + new_process.arrival;
+	
+	var progressElement = document.createElement("progress");
+	progressElement.setAttribute("value", "0"); // Set the current progress value
+	progressElement.setAttribute("max", new_process.length); // Set the maximum progress value
+	
+	process_div.appendChild(progressElement);
+	process_div.appendChild(pLength);
+	process_div.appendChild(pArrival);
+
+	var process_container = document.getElementById("process-container");
+	process_container.appendChild(process_div);
+	
 }
 
 // Starts the simulation
@@ -30,6 +51,15 @@ function Increment() {
 
 }
 
+// just constantly plays the simulation
+function Play() {
+
+}
+
+// resets the simulation
+function Reset(){
+
+}
 
 // event listener hehehe
 document.addEventListener('DOMContentLoaded', function() {
