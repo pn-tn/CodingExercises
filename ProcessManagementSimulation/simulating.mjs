@@ -1,4 +1,4 @@
-// import * as RouRob from "./RouRob.js";
+import * as RouRob from "./RouRob.js";
 
 // variables
 var process = [];
@@ -55,6 +55,7 @@ function Start() {
 	document.getElementById("play").disabled = false;
 	document.getElementById("incr").disabled = false;
 
+	RouRob.Increment(3);
 }
 
 // Increment the Simulation by 1
