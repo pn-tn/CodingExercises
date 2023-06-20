@@ -24,5 +24,4 @@ I welcome suggestions, or feedback on any of the projects.
 If you have ideas for improvement or spot any issues, feel free to let me know.
 
 Thank you for visiting my Coding Exercises Repository!
-I hope these projects serve as examples of my coding skills and demonstrate my growth as a developer during my studies.
 
