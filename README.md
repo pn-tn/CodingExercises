@@ -1,6 +1,6 @@
 ## Coding Exercises Repository
 
-Welcome to my Coding Exercises Repository! This repository serves as a collection of small coding projects I've completed during my studies.
+This repository serves as a collection of small coding projects I've completed during my studies.
 Each project focuses on different concepts, algorithms, or technologies I've learned along the way.
 
 ### Project Structure
@@ -17,12 +17,6 @@ Here's an overview of the projects included in this repository:
 - [shootingGame]: 2d shooting game made in python.
 - [Process Management Simulation]: Simulation of how OS handle process scheduling.
 
-- [Project n]: Brief description of Project n.
 
-### :D
-
-I welcome suggestions, or feedback on any of the projects.
-If you have ideas for improvement or spot any issues, feel free to let me know.
-
-Thank you for visiting my Coding Exercises Repository!
+## :D
 
