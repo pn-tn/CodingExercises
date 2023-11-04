@@ -15,6 +15,7 @@ Here's an overview of the projects included in this repository:
 - [EvolutionSimulation]: A simple simulation about natural selection.
 - [LSTM_Project]: Project that attempts to predict future cases of covid using LSTM.
 - [shootingGame]: 2d shooting game made in python.
+- [Process Management Simulation]: Simulation of how OS handle process scheduling.
 
 - [Project n]: Brief description of Project n.
 
